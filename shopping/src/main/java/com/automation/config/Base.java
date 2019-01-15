@@ -1,6 +1,7 @@
 package com.automation.config;
 
 import org.openqa.selenium.WebDriver;
+
 import org.openqa.selenium.firefox.FirefoxDriver;
 
 public class Base {
@@ -13,11 +14,15 @@ public class Base {
 		System.setProperty("", "");
 		
 		driver= new FirefoxDriver();
+		System.out.println("Added By Dinesh");
 		
-		
-		
+	
+	
+	
+
+
 		
 	}
 	
 
-}
+	}
