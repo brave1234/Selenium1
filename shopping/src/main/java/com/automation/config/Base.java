@@ -23,19 +23,11 @@ public class Base {
 	public void add() {
 		System.out.println("This is kabita");
 		System.out.println("This is kabita gautam");
-		
-	
-	
-
-	
 
 	}
-	public void add(int a, int b) {
-		int c = a + b;
-		System.out.println("addition is = "+c);
-
-	}
-	
+	public void sub() {
+		System.out.println("I am inside sub method of calc");
+		}
 	
 
 
