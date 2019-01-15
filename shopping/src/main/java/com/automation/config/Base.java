@@ -14,12 +14,15 @@ public class Base {
 		System.setProperty("", "");
 		
 		driver= new FirefoxDriver();
-		System.out.println("Added By Dinesh");
-		}
-	public int add(int a, int b) {
-		int c;
-		return c =(a+b);
+	}
+	/*
+	 * This method is created for multiplication
+	 */
+	public void multiplication() {
+		System.out.println("Multiplication is =");
 	}
 	
+
+
 
 	}
