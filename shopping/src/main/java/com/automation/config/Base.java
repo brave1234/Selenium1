@@ -21,6 +21,15 @@ public class Base {
 
 	}
 	
+	/**
+	 * This method is created for addition
+	 * **/
+	public void add() {
+		System.out.println("This is kabita");
+		System.out.println("This is kabita gautam");
+		
+	}
+	
 
 
 
