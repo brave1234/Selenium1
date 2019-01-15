@@ -25,11 +25,11 @@ public class Base {
 		System.out.println("This is kabita gautam");
 
 	}
-	public void div() {
-		System.out.println("This is Dinesh");
-		System.out.println("This is Dinesh Shrestha");
-	}
+	public void sub() {
+		System.out.println("I am inside sub method of calc");
+		
+	}}
 
 
 
-	}
+	
