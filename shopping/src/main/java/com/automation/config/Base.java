@@ -25,9 +25,6 @@ public class Base {
 	public void add() {
 		System.out.println("This is kabita");
 		System.out.println("This is kabita gautam");
-<<<<<<< HEAD
-=======
-		
 	}
 	/**
 	 * this method is created by anjana
@@ -37,13 +34,18 @@ public class Base {
 		Select sel = new Select(driver.findElement(By.id(".....")));
 		sel.selectByVisibleText(".....");
 	}
->>>>>>> branch 'master' of https://github.com/brave1234/Selenium1.git
-
-	}
 	public void sub() {
-		System.out.println("I am inside sub method of calc");
+	System.out.println("I am inside sub method of calc");
 		
-	}}
+	}
+	
+	public void div( ) {
+		int x=20;
+	    int y=30;
+	    int z=x/y;
+	    System.out.println("value of z="+z);
+	}
+}
 
 
 
