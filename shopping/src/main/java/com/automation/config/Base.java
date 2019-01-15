@@ -15,11 +15,10 @@ public class Base {
 		
 		driver= new FirefoxDriver();
 	}
-	/*
-	 * This method is created for multiplication
-	 */
-	public void multiplication() {
-		System.out.println("Multiplication is =");
+	public void add(int a, int b) {
+		int c = a + b;
+		System.out.println("addition is = "+c);
+
 	}
 	
 
