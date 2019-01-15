@@ -19,5 +19,13 @@ public class Base {
 		
 	}
 	
+	/**
+	 * This method is created for addition
+	 * **/
+	public void add() {
+		System.out.println("This method is created by Kabita");
+		
+	}
+	
 
 }
