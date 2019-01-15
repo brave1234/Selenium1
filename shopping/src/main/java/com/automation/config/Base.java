@@ -15,11 +15,7 @@ public class Base {
 		
 		driver= new FirefoxDriver();
 	}
-	public void add(int a, int b) {
-		int c = a + b;
-		System.out.println("addition is = "+c);
-
-	}
+	
 	
 	/**
 	 * This method is created for addition
@@ -28,6 +24,11 @@ public class Base {
 		System.out.println("This is kabita");
 		System.out.println("This is kabita gautam");
 		
+	}
+	public void add(int a, int b) {
+		int c = a + b;
+		System.out.println("addition is = "+c);
+
 	}
 	
 
