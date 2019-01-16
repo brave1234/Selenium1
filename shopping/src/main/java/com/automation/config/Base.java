@@ -45,6 +45,13 @@ public class Base {
 	    int z=x/y;
 	    System.out.println("value of z="+z);
 	}
+	
+	
+	public void sel() {
+		
+		
+	}
+	
 }
 
 
