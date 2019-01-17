@@ -2,7 +2,7 @@ package com.automation.config;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-
+import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.ui.Select;
 
@@ -67,6 +67,19 @@ public class Base {
   public void HelloEveryone() {
 	  System.out.println("hello its me prashant everyone");
   }
+	public static void main(String[] args) {
+		
+		System.setProperty("webdriver.chrome.driver", "D:\\BrowserDriver\\chromedriver.exe");
+		
+		WebDriver driver=new ChromeDriver();
+		driver.get("https://www.youtube.com");
+		driver.manage().window().maximize();
+		System.out.println("Current url is - "+ driver.getCurrentUrl());
+		
+	}
+
 }
+
+
 
 	
