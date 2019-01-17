@@ -63,8 +63,10 @@ public class Base {
 		 }
 
 	
+
+  public void HelloEveryone() {
+	  System.out.println("hello its me prashant everyone");
+  }
 }
-
-
 
 	
